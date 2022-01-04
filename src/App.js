@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { Article, Feature, Navbar } from './components';
+import { Header, Footer, Features, Apartmaji } from './containers';
+import { BrowserRouter as Router } from 'react-router-dom';
+import './App.css';
+import Copyright from './components/copyright/Copyright';
+
+
+const App = () => {
+    return (
+        <div className='App'>
+            <div className='nav__color'>
+                <Router>
+                    <Navbar />
+                    </Router>
+                <Header/>
+            </div>
+            <Feature />
+            <Apartmaji/>
+            <Footer />
+            <Copyright/>
+        </div>
+    )
 }
 
 export default App;

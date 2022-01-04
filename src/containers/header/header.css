@@ -1,0 +1,90 @@
+.__header {
+    display   : inline-block;
+    position  : relative;
+    text-align: center;
+    width     : 100%;
+    bottom    : -3px;
+}
+
+.__header img {
+    width     : 100%;
+    min-height: 200px;
+    object-fit: cover;
+}
+
+.center {
+    position : absolute;
+    top      : 35%;
+    left     : 50%;
+    transform: translate(-50%, -50%);
+}
+
+.__header p,
+.__header h1 {
+    color      : #fff;
+    font-style : normal;
+    font-weight: 500;
+}
+
+.__header p {
+    font-size  : 50px;
+    line-height: 60px;
+    opacity    : 70%;
+}
+
+.__header h1 {
+    font-size  : 70px;
+    line-height: 70px;
+}
+
+@media screen and (max-width: 1950px) {
+    .__header p {
+        font-size  : 40px;
+        line-height: 50px;
+        opacity    : 70%;
+    }
+
+    .__header h1 {
+        font-size  : 60px;
+        line-height: 60px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .__header p {
+        font-size  : 30px;
+        line-height: 40px;
+        opacity    : 70%;
+    }
+
+    .__header h1 {
+        font-size  : 50px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .__header p {
+        font-size  : 20px;
+        line-height: 30px;
+        opacity    : 70%;
+    }
+
+    .__header h1 {
+        font-size  : 35px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .__header p {
+        font-size  : 20px;
+        line-height: 40px;
+        opacity    : 70%;
+    }
+
+    .__header h1 {
+        font-size  : 30px;
+        line-height: 30px;
+    }
+}

@@ -1,13 +1,21 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+    --font-family: 'Manrope',
+        sans-serif;
+
+    --gradient-bg: linear-gradient(90deg, rgba(243, 244, 246, 1) 0%, rgba(184, 246, 255, 1) 62%, rgba(0, 212, 245, 0.8631827731092436) 100%);
+
+    --color-bg      : #F3F4F6;
+    --color-footer  : #4A546D;
+    --color-nav     : #BDCBDB;
+    --color-nav-menu: #aab6c4;
+    --color-button  : rgb(0, 89, 255);
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/*
+    color gradient: https: //angrytools.com/gradient/
+    animatons: animista.net/play/basic
+
+*/

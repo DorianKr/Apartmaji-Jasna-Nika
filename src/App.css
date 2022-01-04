@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+* {
+    box-sizing     : border-box;
+    padding        : 0;
+    margin         : 0;
+    scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-color: linear-gradient(90deg, rgba(243, 244, 246, 1) 0%, rgba(184, 246, 255, 1) 62%, rgba(0, 212, 245, 0.8631827731092436) 100%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+    color          : unset;
+    text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.gradient__bg {
+
+    /* ff 3.6+ */
+    background: -moz-radial-gradient(circle at 7% 25%, rgba(243, 244, 246, 1) 0%, rgba(0, 212, 245, 0.86) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-radial-gradient(circle at 7% 25%, rgba(243, 244, 246, 1) 0%, rgba(0, 212, 245, 0.86) 100%);
+
+    /* opera 11.10+ */
+    background: -o-radial-gradient(circle at 7% 25%, rgba(243, 244, 246, 1) 0%, rgba(0, 212, 245, 0.86) 100%);
+
+    /* ie 10+ */
+    background: -ms-radial-gradient(circle at 7% 25%, rgba(243, 244, 246, 1) 0%, rgba(0, 212, 245, 0.86) 100%);
+
+    /* global 92%+ browsers support */
+    background: radial-gradient(circle at 7% 25%, rgba(243, 244, 246, 1) 0%, rgba(0, 212, 245, 0.86) 100%);
+
 }
 
-.App-link {
-  color: #61dafb;
+.nav__color {
+    background-color: var(--color-nav);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.section__padding {
+    padding: 2rem 3rem;
+}
+
+.section__margine {
+    margin: 4rem 6rem;
+}
+
+sup {
+    vertical-align: top;
+    position      : relative;
+    top           : -0.35em;
+}
+
+@media screen and (max-width: 700px) {
+    .section__padding {
+        padding: 2rem 2rem;
+    }
+
+    .section__margine {
+        margin: 4rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .section__padding {
+        padding: 2rem 2rem;
+    }
+
+    .section__margine {
+        margin: 4rem 2rem;
+    }
 }

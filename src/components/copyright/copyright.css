@@ -1,0 +1,11 @@
+.__copyright {
+    background     : var(--color-footer);
+    display        : flex;
+    flex-wrap      : wrap;
+    flex-direction : row;
+    justify-content: space-evenly;
+
+    color: #fff;
+
+    padding-bottom: 0.2rem;
+}

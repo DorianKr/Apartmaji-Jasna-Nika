@@ -1,0 +1,74 @@
+.__footer {
+    background     : var(--color-footer);
+    display        : flex;
+    flex-wrap      : wrap;
+    flex-direction : row;
+    justify-content: space-evenly;
+
+    color: #fff;
+}
+
+.__footer_input-section,
+.__footer_kontakti-section,
+.__footer_license-section {
+    display       : flex;
+    flex-direction: column;
+}
+
+.__footer_input-section p,
+.__footer_input-section label,
+.__footer_kontakti-section p,
+.__footer_license-section p {
+    padding-top   : 0.6rem;
+    padding-bottom: 0.2rem;
+}
+
+.__footer_input-section input,
+.__footer_input-section textarea,
+.__footer_input-section button {
+    padding      : 0.3rem 0 0.3rem 0.5rem;
+    margin       : 0 1rem 0.5rem 0;
+    border-radius: 5px;
+    border       : none;
+    max-width    : 430px;
+    resize       : vertical;
+    min-height   : 25px;
+}
+
+.__footer_input-section textarea {
+    height: 100%;
+}
+
+.__footer_input-section button {
+    cursor          : pointer;
+    color           : #fff;
+    font-weight     : 700;
+    background-color: var(--color-button);
+}
+
+.__footer_input-section button:hover {
+    color           : var(--color-button);
+    background-color: #fff;
+}
+
+.__footer_input-section button:active {
+    background-color: #ccc;
+}
+
+.mapouter {
+    position  : relative;
+    text-align: right;
+    height    : 300px;
+    width     : 400px;
+}
+
+.gmap_canvas {
+    overflow  : hidden;
+    background: none !important;
+    height    : 300px;
+    width     : 400px;
+}
+
+.__footer-botom {
+    position: absolute;
+}
