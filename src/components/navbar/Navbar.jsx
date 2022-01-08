@@ -1,19 +1,24 @@
-import React from 'react'
-import { useState } from 'react';
+import React, { useState } from 'react'
 import { RiMenu3Line, RiCloseLine, RiArrowDropDownLine, RiArrowDropUpLine } from 'react-icons/ri';
+import { Link, animateScroll as scroll } from "react-scroll";
+import i18n from '../../i18n';
+import { useTranslation } from 'react-i18next';
 import logo from '../../assets/logo-full.svg';
 import './navbar.css';
-import { Link, animateScroll as scroll } from "react-scroll";
 
-const Menu = () => (
-    <>
-    </>
-)
 
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
     const [toggleSubMenu, setToggleSubMenu] = useState(true);
-    const test = '';
+    const [count, setCount] = useState(0);
+
+    const { t } = useTranslation();
+
+    const onChange = (event) => {
+        i18n.changeLanguage(event.target.value);
+        setCount((previousCount) => previousCount + 1);
+    };
+
     return (
         <div className='__navbar'>
             <div className='__navbar_logo'>
@@ -22,11 +27,11 @@ const Navbar = () => {
             <div className='__navbar-links'>
                 <div className='__navbar-links_container'>
                     <ul>
-                        <li ><Link to="home" >Domov</Link></li>
+                        <li ><Link to="home" >{t('nav.domov')}</Link></li>
                         <li className='dropdown'>
                             {toggleSubMenu
-                                ? <Link to="" onClick={() => setToggleSubMenu(false)}>Apartmaji<RiArrowDropDownLine color='#000' className='react-icons' size={21} /></Link>
-                                : <Link to="" onClick={() => setToggleSubMenu(true)}>Apartmaji<RiArrowDropUpLine color='#000' className='react-icons' size={21} /></Link>
+                                ? <Link to="" onClick={() => setToggleSubMenu(false)}>{t('naslov_m')}<RiArrowDropDownLine color='#000' className='react-icons' size={21} /></Link>
+                                : <Link to="" onClick={() => setToggleSubMenu(true)}>{t('naslov_m')}<RiArrowDropUpLine color='#000' className='react-icons' size={21} /></Link>
                             }
 
                             {!toggleSubMenu && (
@@ -40,12 +45,22 @@ const Navbar = () => {
                                 </ul>
                             )}
                         </li>
-                        <li><Link to="zasedenost">Zasedenost / Cene</Link></li>
-                        <li><Link to="info">Info</Link></li>
+                        <li><Link to="zasedenost">{t('nav.zasedenost')}</Link></li>
+                        <li><Link to="info">{t('nav.info')}</Link></li>
+                        <li>
+                            <select name="language" onChange={onChange}>
+                                <option value="sl">SLO</option>
+                                <option value="en">ENG</option>
+                            </select>
+                        </li>
                     </ul>
                 </div>
             </div>
             <div className='__navbar-menu'>
+                <select name="language" onChange={onChange}>
+                    <option value="sl">SLO</option>
+                    <option value="en">ENG</option>
+                </select>
                 {toggleMenu
                     ? <RiCloseLine color='#fff' size={27} onClick={() => { setToggleMenu(false); setToggleSubMenu(true) }} />
                     : <RiMenu3Line color='#fff' size={27} onClick={() => setToggleMenu(true)} />
@@ -54,11 +69,11 @@ const Navbar = () => {
                     <div className='__navbar-menu_container scale-up-center'>
 
                         <ul>
-                            <li className={toggleSubMenu ? '' : 'hide'}><Link to="home" onClick={() => setToggleMenu(false)}>Domov</Link></li>
+                            <li className={toggleSubMenu ? '' : 'hide'}><Link to="home" onClick={() => setToggleMenu(false)}>{t('nav.domov')}</Link></li>
                             <li className='dropdown'>
                                 {toggleSubMenu
-                                    ? <Link to="" onClick={() => { setToggleSubMenu(false); }}>Apartmaji<RiArrowDropDownLine color='#000' className='react-icons' size={21} /></Link>
-                                    : <Link to="" onClick={() => { setToggleSubMenu(true); }}>Apartmaji<RiArrowDropUpLine color='#000' className='react-icons' size={21} /></Link>
+                                    ? <Link to="" onClick={() => { setToggleSubMenu(false); }}>{t('naslov_m')}<RiArrowDropDownLine color='#000' className='react-icons' size={21} /></Link>
+                                    : <Link to="" onClick={() => { setToggleSubMenu(true); }}>{t('naslov_m')}<RiArrowDropUpLine color='#000' className='react-icons' size={21} /></Link>
                                 }
 
                                 {!toggleSubMenu && (
@@ -72,13 +87,13 @@ const Navbar = () => {
                                     </ul>
                                 )}
                             </li>
-                            <li className={toggleSubMenu ? '' : 'hide'}><Link to="zasedenost" onClick={() => setToggleMenu(false)}>Zasedenost / Cene</Link></li>
-                            <li className={toggleSubMenu ? '' : 'hide'}><Link to="info" onClick={() => setToggleMenu(false)}>Info</Link></li>
+                            <li className={toggleSubMenu ? '' : 'hide'}><Link to="zasedenost" onClick={() => setToggleMenu(false)}>{t('nav.zasedenost')}</Link></li>
+                            <li className={toggleSubMenu ? '' : 'hide'}><Link to="info" onClick={() => setToggleMenu(false)}>{t('nav.info')}</Link></li>
+
                         </ul>
 
                     </div>
                 )
-
                 }
             </div>
         </div>

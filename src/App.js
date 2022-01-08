@@ -5,22 +5,24 @@ import { Header, Footer, Features, Apartmaji } from './containers';
 import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
 import Copyright from './components/copyright/Copyright';
-
+import { Suspense } from 'react/cjs/react.production.min';
 
 const App = () => {
     return (
-        <div className='App'>
-            <div className='nav__color'>
-                <Router>
-                    <Navbar />
+        <Suspense fallback="Loading...">
+            <div className='App'>
+                <div className='nav__color'>
+                    <Router>
+                        <Navbar />
                     </Router>
-                <Header/>
+                    <Header />
+                </div>
+                <Feature />
+                <Apartmaji />
+                <Footer />
+                <Copyright />
             </div>
-            <Feature />
-            <Apartmaji/>
-            <Footer />
-            <Copyright/>
-        </div>
+        </Suspense>
     )
 }
 

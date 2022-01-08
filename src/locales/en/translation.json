@@ -1,0 +1,21 @@
+{
+    "naslov_m": "Apartments",
+    "naslov_e": "Apartment",
+    "nav": {
+        "domov": "Home",
+        "zasedenost": "Occupancy / Prices",
+        "info": "Info"
+    },
+    "button": {
+        "vec": "Read more",
+        "poslji": "Send"
+    },
+    "footer": {
+        "kontaktirajte_nas": "Contact Us!",
+        "vprasanja": "If you have any questions you can write to us here:",
+        "licenca_ikonice": "License for icons",
+        "ikonice_msg": "Icons made by",
+        "from": "from",
+        "msg": "Message:"
+    }
+}

@@ -1,23 +1,24 @@
 import React from 'react'
 import { RiPhoneLine, RiMailOpenLine } from 'react-icons/ri';
-
+import { useTranslation } from 'react-i18next';
 import './footer.css';
 
 const Footer = () => {
+    const { t } = useTranslation();
     return (
         <div className='__footer section__padding'>
             <div className='__footer_kontakti-section'>
-                <h4>Kontaktirajte nas!</h4>
+                <h4>{t('footer.kontaktirajte_nas')}</h4>
                 <p><RiPhoneLine className='react-icons' /> Tel: <a href="tel:+386000000000">000 000 000</a></p>
                 <p><RiMailOpenLine className='react-icons' /> Mail: <a href="mailto:">Apartmaji.Jasna-in-Nika@gmail.com</a></p>
             </div>
             <div className='__footer_input-section'>
-                <h4>Če imate kakršna koli vprašanja nam lahko pišete tukaj:</h4>
+                <h4>{t('footer.vprasanja')}</h4>
                 <label htmlFor="mail">Mail:</label>
                 <input id='mail' type="mail" placeholder='primere@mail.com' />
-                <label htmlFor="text">Sporočilo:</label>
+                <label htmlFor="text">{t('footer.msg')}</label>
                 <textarea id='text' type="text" maxLength={500} />
-                <button type="submit">Pošlji</button>
+                <button type="submit">{t('button.poslji')}</button>
             </div>
             {/*
             <div>
@@ -29,8 +30,9 @@ const Footer = () => {
                 </div> 
             </div>*/}
             <div className='__footer_license-section'>
-                <h4>Licenca za ikonice</h4>
-                <p>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
+                <h4>{t('footer.licenca_ikonice')}</h4>
+                <p>{t('footer.ikonice_msg')} <a href="https://www.freepik.com" title="Freepik">Freepik</a> {t('footer.from')} <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
+                <p></p>
             </div>
         </div>
     )

@@ -1,0 +1,21 @@
+{
+    "naslov_m": "Apartmaji",
+    "naslov_e": "Apartma",
+    "nav": {
+        "domov": "Domov",
+        "zasedenost": "Zasedenost / Cene",
+        "info": "Info"
+    },
+    "button": {
+        "vec": "Preberi več",
+        "poslji": "Pošlji"
+    },
+    "footer": {
+        "kontaktirajte_nas": "Kontaktirajte nas!",
+        "vprasanja": "Če imate kakršna koli vprašanja nam lahko pišete tukaj:",
+        "licenca_ikonice": "Licenca za ikonice",
+        "ikonice_msg": "Ikone, ki jih je izdelal",
+        "from": "iz",
+        "msg": "Sporočilo:"
+    }
+}
