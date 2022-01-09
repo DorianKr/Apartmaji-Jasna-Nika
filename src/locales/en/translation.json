@@ -17,5 +17,17 @@
         "ikonice_msg": "Icons made by",
         "from": "from",
         "msg": "Message:"
+    },
+    "apartmaji_text": {
+        "jasna1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non in id voluptatem reprehenderit sed magni consequuntur excepturi deleniti animi, molestias sint obcaecati explicabo dolorem sit praesentium laudantium blanditiis vel harum.",
+        "jasna2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non in id voluptatem reprehenderit sed magni consequuntur excepturi deleniti animi, molestias sint obcaecati explicabo dolorem sit praesentium laudantium blanditiis vel harum.",
+        "jasna3": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non in id voluptatem reprehenderit sed magni consequuntur excepturi deleniti animi, molestias sint obcaecati explicabo dolorem sit praesentium laudantium blanditiis vel harum.",
+        "jasna4": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non in id voluptatem reprehenderit sed magni consequuntur excepturi deleniti animi, molestias sint obcaecati explicabo dolorem sit praesentium laudantium blanditiis vel harum.",
+        "nika1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non in id voluptatem reprehenderit sed magni consequuntur excepturi deleniti animi, molestias sint obcaecati explicabo dolorem sit praesentium laudantium blanditiis vel harum.",
+        "nika2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non in id voluptatem reprehenderit sed magni consequuntur excepturi deleniti animi, molestias sint obcaecati explicabo dolorem sit praesentium laudantium blanditiis vel harum."
+    },
+    "alt": {
+        "slika_apartmaja": "Apartment ",
+        "slika_header": "Sea view from the terrace"
     }
 }

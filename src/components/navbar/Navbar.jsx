@@ -40,8 +40,8 @@ const Navbar = () => {
                                     <li><Link to='jasna 2' onClick={() => setToggleSubMenu(true)}>Jasna 2</Link></li>
                                     <li><Link to='jasna 3' onClick={() => setToggleSubMenu(true)}>Jasna 3</Link></li>
                                     <li><Link to='jasna 4' onClick={() => setToggleSubMenu(true)}>Jasna 4</Link></li>
-                                    <li><Link to='nika 1' onClick={() => setToggleSubMenu(true)}>Nika 2</Link></li>
-                                    <li><Link to='nika 2' onClick={() => setToggleSubMenu(true)}>Nika 3</Link></li>
+                                    <li><Link to='nika 1' onClick={() => setToggleSubMenu(true)}>Nika 1</Link></li>
+                                    <li><Link to='nika 2' onClick={() => setToggleSubMenu(true)}>Nika 2</Link></li>
                                 </ul>
                             )}
                         </li>

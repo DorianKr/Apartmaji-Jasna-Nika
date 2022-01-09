@@ -8,7 +8,7 @@ const Header = () => {
 
     return (
         <div className='__header' id='home'>
-            <img src={headerImage} alt="" sizes="" srcSet="" />
+            <img src={headerImage} alt={t('alt.slika_header')} sizes="" srcSet="" />
             <div className='center'>
                 <p>{t('naslov_m')}</p>
                 <h1>Jasna &amp; Nika</h1>
