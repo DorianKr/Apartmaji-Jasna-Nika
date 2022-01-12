@@ -6,17 +6,17 @@
         "zasedenost": "Zasedenost / Cene",
         "info": "Info"
     },
-    "button": {
-        "vec": "Preberi več",
-        "poslji": "Pošlji"
+    "info": {
+        "naslov": "Naslov",
+        "kontakti": "Kontakti",
+        "kontaktirajte_nas": "Kontaktirajte nas!",
+        "kontaktirajte_nas-vpr": "Če imate kakršna koli vprašanja nam lahko pišete tukaj:",
+        "msg": "Sporočilo:",
+        "hr": "Hrvaška"
     },
     "footer": {
-        "kontaktirajte_nas": "Kontaktirajte nas!",
-        "vprasanja": "Če imate kakršna koli vprašanja nam lahko pišete tukaj:",
         "licenca_ikonice": "Licenca za ikonice",
-        "ikonice_msg": "Ikone, ki jih je izdelal",
-        "from": "iz",
-        "msg": "Sporočilo:"
+        "ikonice_msg": "Ikone, ki jih je izdelal"
     },
     "apartmaji_text": {
         "jasna1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non in id voluptatem reprehenderit sed magni consequuntur excepturi deleniti animi, molestias sint obcaecati explicabo dolorem sit praesentium laudantium blanditiis vel harum.",
@@ -29,5 +29,10 @@
     "alt": {
         "slika_apartmaja": "Apartma ",
         "slika_header": "Razgled na morje iz terase"
+    },
+    "misc": {
+        "from": "iz",
+        "preberi_vec": "Preberi več",
+        "poslji": "Pošlji"
     }
 }

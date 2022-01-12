@@ -6,17 +6,17 @@
         "zasedenost": "Occupancy / Prices",
         "info": "Info"
     },
-    "button": {
-        "vec": "Read more",
-        "poslji": "Send"
+    "info": {
+        "naslov": "Address",
+        "kontakti": "Contacts",
+        "kontaktirajte_nas": "Contact us!",
+        "kontaktirajte_nas-vpr": "If you have any questions you can write to us here:",
+        "msg": "Message:",
+        "hr": "Croatia"
     },
     "footer": {
-        "kontaktirajte_nas": "Contact Us!",
-        "vprasanja": "If you have any questions you can write to us here:",
         "licenca_ikonice": "License for icons",
-        "ikonice_msg": "Icons made by",
-        "from": "from",
-        "msg": "Message:"
+        "ikonice_msg": "Icons made by"
     },
     "apartmaji_text": {
         "jasna1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non in id voluptatem reprehenderit sed magni consequuntur excepturi deleniti animi, molestias sint obcaecati explicabo dolorem sit praesentium laudantium blanditiis vel harum.",
@@ -29,5 +29,10 @@
     "alt": {
         "slika_apartmaja": "Apartment ",
         "slika_header": "Sea view from the terrace"
+    },
+    "misc": {
+        "from": "from",
+        "preberi_vec": "Read more",
+        "poslji": "Send"
     }
 }
