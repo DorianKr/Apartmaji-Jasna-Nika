@@ -1,5 +1,5 @@
 import React from 'react'
-import { Apartma } from '../../components';
+import { Article } from '../../components';
 import { useTranslation } from 'react-i18next';
 import './apartmaji.css';
 
@@ -55,7 +55,7 @@ const Apartmaji = () => {
         <div className='__apartmaji section__padding' id='apartmaji'>
             <div>
                 {apartmaji.map((item, index) => (
-                    <Apartma title={item.title} text={item.text} image={item.image} st_postelj={item.st_postelj} velikost={item.velikost} st={index} key={item.title} />
+                    <Article title={item.title} text={item.text} image={item.image} st_postelj={item.st_postelj} velikost={item.velikost} st={index} key={item.title} />
                 ))}
             </div>
         </div>
