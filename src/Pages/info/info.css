@@ -1,0 +1,58 @@
+.__info {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.__info>div {
+    padding-bottom: 3rem;
+}
+
+.__info h2 {
+    padding-bottom: 2rem;
+}
+
+.__info p {
+    padding-bottom: 1.3rem;
+}
+
+.__info_section {
+    justify-content: space-evenly;
+    flex-wrap      : wrap;
+    gap            : 2rem;
+}
+
+.__info_section>div {
+    padding  : 0 2rem;
+    max-width: 700px;
+    width    : 90%;
+}
+
+iframe {
+    border: none;
+}
+
+.google-maps {
+    position      : relative;
+    padding-bottom: 75%;
+    height        : 0;
+    overflow      : hidden;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top     : 0;
+    left    : 0;
+    width   : 100% !important;
+    height  : 100% !important;
+}
+
+@media screen and (max-width: 1250px) {
+    .__info_section {
+        flex-direction: column;
+        align-items   : center;
+    }
+}
+
+@media screen and (max-width: 550px) {}
+
+@media screen and (max-width: 400px) {}
