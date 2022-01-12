@@ -11,6 +11,7 @@
 .__footer_input-section,
 .__footer_kontakti-section,
 .__footer_license-section {
+    padding       : 1rem 1rem;
     display       : flex;
     flex-direction: column;
 }
@@ -32,7 +33,7 @@
     border       : none;
     max-width    : 430px;
     resize       : vertical;
-    min-height   : 25px;
+    min-height   : 34px;
 }
 
 .__footer_input-section textarea {

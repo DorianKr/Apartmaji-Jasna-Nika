@@ -9,6 +9,13 @@ body {
     background-color: linear-gradient(90deg, rgba(243, 244, 246, 1) 0%, rgba(184, 246, 255, 1) 62%, rgba(0, 212, 245, 0.8631827731092436) 100%);
 }
 
+.App {
+    height        : 100vh;
+    width         : 100vw;
+    display       : flex;
+    flex-direction: column;
+}
+
 a {
     color          : unset;
     text-decoration: none;
@@ -49,6 +56,10 @@ sup {
     vertical-align: top;
     position      : relative;
     top           : -0.35em;
+}
+
+.fill {
+    flex-grow: 1;
 }
 
 @media screen and (max-width: 700px) {
