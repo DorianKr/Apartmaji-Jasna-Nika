@@ -1,4 +1,4 @@
 export { default as Article } from './article/Article';
 export { default as Feature } from './feature/Feature';
 export { default as Navbar } from './navbar/Navbar';
-export { default as Apartma } from './apartma/Apartma';
+export { default as Copyright } from './copyright/Copyright';
