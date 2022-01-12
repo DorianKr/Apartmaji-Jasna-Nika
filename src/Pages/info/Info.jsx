@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { RiPhoneFill, RiMailOpenFill, RiMapPin2Fill } from 'react-icons/ri';
 import { useTranslation } from 'react-i18next';
 
