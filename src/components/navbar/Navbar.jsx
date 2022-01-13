@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { RiMenu3Line, RiCloseLine, RiArrowDropDownLine, RiArrowDropUpLine } from 'react-icons/ri';
-import { Link as Link2, animateScroll as scroll } from "react-scroll";
+import { Link as Link2 } from "react-scroll";
 import { Link } from 'react-router-dom';
 import i18n from '../../i18n';
 import { useTranslation } from 'react-i18next';
@@ -11,13 +11,11 @@ import './navbar.css';
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
     const [toggleSubMenu, setToggleSubMenu] = useState(true);
-    const [count, setCount] = useState(0);
 
     const { t } = useTranslation();
 
     const onChange = (event) => {
         i18n.changeLanguage(event.target.value);
-        setCount((previousCount) => previousCount + 1);
     };
 
     return (
@@ -37,12 +35,12 @@ const Navbar = () => {
 
                             {!toggleSubMenu && (
                                 <ul className='submenu'>
-                                    <li><Link2 to='jasna 1' smooth={true} onClick={() => setToggleSubMenu(true)}>Jasna 1</Link2></li>
-                                    <li><Link2 to='jasna 2' smooth={true} onClick={() => setToggleSubMenu(true)}>Jasna 2</Link2></li>
-                                    <li><Link2 to='jasna 3' smooth={true} onClick={() => setToggleSubMenu(true)}>Jasna 3</Link2></li>
-                                    <li><Link2 to='jasna 4' smooth={true} onClick={() => setToggleSubMenu(true)}>Jasna 4</Link2></li>
-                                    <li><Link2 to='nika 1' smooth={true} onClick={() => setToggleSubMenu(true)}>Nika 1</Link2></li>
-                                    <li><Link2 to='nika 2' smooth={true} onClick={() => setToggleSubMenu(true)}>Nika 2</Link2></li>
+                                    <li><Link2 to='jasna 1' smooth={true} duration={1000} delay={100} onClick={() => setToggleSubMenu(true)}>Jasna 1</Link2></li>
+                                    <li><Link2 to='jasna 2' smooth={true} duration={1000} delay={100} onClick={() => setToggleSubMenu(true)}>Jasna 2</Link2></li>
+                                    <li><Link2 to='jasna 3' smooth={true} duration={1000} delay={100} onClick={() => setToggleSubMenu(true)}>Jasna 3</Link2></li>
+                                    <li><Link2 to='jasna 4' smooth={true} duration={1000} delay={100} onClick={() => setToggleSubMenu(true)}>Jasna 4</Link2></li>
+                                    <li><Link2 to='nika 1' smooth={true} duration={1000} delay={100} onClick={() => setToggleSubMenu(true)}>Nika 1</Link2></li>
+                                    <li><Link2 to='nika 2' smooth={true} duration={1000} delay={100} onClick={() => setToggleSubMenu(true)}>Nika 2</Link2></li>
                                 </ul>
                             )}
                         </li>
@@ -79,12 +77,12 @@ const Navbar = () => {
 
                                 {!toggleSubMenu && (
                                     <ul className='submenu'>
-                                        <li><Link2 to='jasna 1' smooth={true} onClick={() => { setToggleSubMenu(true); setToggleMenu(false); }}>Jasna 1</Link2></li>
-                                        <li><Link2 to='jasna 2' smooth={true} onClick={() => { setToggleSubMenu(true); setToggleMenu(false); }}>Jasna 2</Link2></li>
-                                        <li><Link2 to='jasna 3' smooth={true} onClick={() => { setToggleSubMenu(true); setToggleMenu(false); }}>Jasna 3</Link2></li>
-                                        <li><Link2 to='jasna 4' smooth={true} onClick={() => { setToggleSubMenu(true); setToggleMenu(false); }}>Jasna 4</Link2></li>
-                                        <li><Link2 to='nika 1' smooth={true} onClick={() => { setToggleSubMenu(true); setToggleMenu(false); }}>Nika 2</Link2></li>
-                                        <li><Link2 to='nika 2' smooth={true} onClick={() => { setToggleSubMenu(true); setToggleMenu(false); }}>Nika 3</Link2></li>
+                                        <li><Link2 to='jasna 1' smooth={true} duration={1000} delay={100} onClick={() => { setToggleSubMenu(true); setToggleMenu(false); }}>Jasna 1</Link2></li>
+                                        <li><Link2 to='jasna 2' smooth={true} duration={1000} delay={100} onClick={() => { setToggleSubMenu(true); setToggleMenu(false); }}>Jasna 2</Link2></li>
+                                        <li><Link2 to='jasna 3' smooth={true} duration={1000} delay={100} onClick={() => { setToggleSubMenu(true); setToggleMenu(false); }}>Jasna 3</Link2></li>
+                                        <li><Link2 to='jasna 4' smooth={true} duration={1000} delay={100} onClick={() => { setToggleSubMenu(true); setToggleMenu(false); }}>Jasna 4</Link2></li>
+                                        <li><Link2 to='nika 1' smooth={true} duration={1000} delay={100} onClick={() => { setToggleSubMenu(true); setToggleMenu(false); }}>Nika 2</Link2></li>
+                                        <li><Link2 to='nika 2' smooth={true} duration={1000} delay={100} onClick={() => { setToggleSubMenu(true); setToggleMenu(false); }}>Nika 3</Link2></li>
                                     </ul>
                                 )}
                             </li>
