@@ -4,8 +4,8 @@
 html,
 body,
 #root {
-    height: 100vh;
-    width : 100vw;
+    height  : 100vh;
+    /*width : 100vw;*/
 }
 
 :root {
@@ -30,5 +30,20 @@ body,
 /*
     color gradient: https: //angrytools.com/gradient/
     animatons: animista.net/play/basic
+
+    Poisci elemente, ki povzrocajo horizontal scrollbar
+    var all=document.getElementsByTagName("*"),
+    i=0,
+    rect,
+    docWidth=document.documentElement.offsetWidth;
+
+    for (; i < all.length; i++) {
+        rect=all[i].getBoundingClientRect();
+
+        if (rect.right > docWidth || rect.left < 0) {
+            console.log(all[i]);
+            all[i].style.borderTop='1px solid red';
+        }
+    }
 
 */
