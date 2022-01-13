@@ -45,7 +45,7 @@
 .__apartma-text_icons {
     display       : flex;
     flex-direction: row;
-    margin        : 1.5rem 0 0 1rem;
+    margin        : 1.5rem 0 0 0;
 }
 
 .__apartma-text_icons div {
@@ -64,10 +64,12 @@
 }
 
 .btn {
-    margin       : 1.5rem 0 0 1rem;
-    padding      : 0.6rem 1.5rem;
-    border-radius: 25px;
-    border       : none;
+    background-color  : #eee;
+    display           : block;
+    /*margin          : 1.5rem 0 0 1rem;*/
+    padding           : 0.6rem 1.5rem;
+    border-radius     : 25px;
+    border            : none;
 }
 
 @media screen and (max-width: 1300px) {
@@ -79,6 +81,10 @@
 
     .slika {
         padding: 2rem 0 3rem 0;
+    }
+
+    .__apartma-text_icons {
+        justify-content: center;
     }
 }
 
