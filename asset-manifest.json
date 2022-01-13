@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Apartmaji-Jasna-Nika/static/css/main.ad70e7c6.css",
-    "main.js": "/Apartmaji-Jasna-Nika/static/js/main.9bcf9173.js",
+    "main.css": "/Apartmaji-Jasna-Nika/static/css/main.12bc0c4f.css",
+    "main.js": "/Apartmaji-Jasna-Nika/static/js/main.14ab9148.js",
     "static/media/headerImage.jpg": "/Apartmaji-Jasna-Nika/static/media/headerImage.7cffbd0e7f155ced3e99.jpg",
     "static/media/place_holder.jpg": "/Apartmaji-Jasna-Nika/static/media/place_holder.33299c23553a3012330c.jpg",
     "static/media/logo-full.svg": "/Apartmaji-Jasna-Nika/static/media/logo-full.7b23dc84eb732e6d1307b312f47b568f.svg",
     "index.html": "/Apartmaji-Jasna-Nika/index.html",
     "static/media/getFetch.cjs": "/Apartmaji-Jasna-Nika/static/media/getFetch.c780682470504fffbd04.cjs",
-    "main.ad70e7c6.css.map": "/Apartmaji-Jasna-Nika/static/css/main.ad70e7c6.css.map",
-    "main.9bcf9173.js.map": "/Apartmaji-Jasna-Nika/static/js/main.9bcf9173.js.map"
+    "main.12bc0c4f.css.map": "/Apartmaji-Jasna-Nika/static/css/main.12bc0c4f.css.map",
+    "main.14ab9148.js.map": "/Apartmaji-Jasna-Nika/static/js/main.14ab9148.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad70e7c6.css",
-    "static/js/main.9bcf9173.js"
+    "static/css/main.12bc0c4f.css",
+    "static/js/main.14ab9148.js"
   ]
 }
