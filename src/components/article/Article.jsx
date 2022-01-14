@@ -21,7 +21,7 @@ const Article = ({ title, text, st_postelj, velikost, st }) => {
                 <div className='__apartma-text_icons'>
                     <div><RiHotelBedFill className='react-icons' /> <p>{st_postelj}</p></div>
                     <div><GiResize /> <p>{velikost} m<sup>2</sup></p></div>
-                    <Link to="" className='btn'>{t('misc.preberi_vec')}</Link>
+                    <Link to={title.replace(/ /g, "_")} className='btn'>{t('misc.preberi_vec')}</Link>
                 </div>
             </div>
         </div>
