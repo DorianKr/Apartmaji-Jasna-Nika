@@ -11,42 +11,42 @@ const Apartmaji = () => {
         {
             title: 'Jasna 1',
             image: '',
-            text: t('apartmaji_text.jasna1'),
+            text: t('apartmaji.j1.opis'),
             st_postelj: '3',
             velikost: '70'
         },
         {
             title: 'Jasna 2',
             image: '',
-            text: t('apartmaji_text.jasna2'),
+            text: t('apartmaji.j2.opis'),
             st_postelj: '3',
             velikost: '70'
         },
         {
             title: 'Jasna 3',
             image: '',
-            text: t('apartmaji_text.jasna3'),
+            text: t('apartmaji.j3.opis'),
             st_postelj: '3',
             velikost: '70'
         },
         {
             title: 'Jasna 4',
             image: '',
-            text: t('apartmaji_text.jasna4'),
+            text: t('apartmaji.j4.opis'),
             st_postelj: '3',
             velikost: '70'
         },
         {
             title: 'Nika 1',
             image: '',
-            text: t('apartmaji_text.nika1'),
+            text: t('apartmaji.n1.opis'),
             st_postelj: '3',
             velikost: '70'
         },
         {
             title: 'Nika 2',
             image: '',
-            text: t('apartmaji_text.nika2'),
+            text: t('apartmaji_text.n2.opis'),
             st_postelj: '3',
             velikost: '70'
         },
