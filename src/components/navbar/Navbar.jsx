@@ -18,6 +18,8 @@ const Navbar = () => {
         i18n.changeLanguage(event.target.value);
     };
 
+    const pathname = window.location.pathname;
+
     return (
         <div className='__navbar'>
             <div className='__navbar_logo'>
@@ -35,12 +37,24 @@ const Navbar = () => {
 
                             {!toggleSubMenu && (
                                 <ul className='submenu'>
-                                    <li><Link2 to='jasna 1' smooth={true} duration={1000} delay={100} onClick={() => setToggleSubMenu(true)}>Jasna 1</Link2></li>
-                                    <li><Link2 to='jasna 2' smooth={true} duration={1000} delay={100} onClick={() => setToggleSubMenu(true)}>Jasna 2</Link2></li>
-                                    <li><Link2 to='jasna 3' smooth={true} duration={1000} delay={100} onClick={() => setToggleSubMenu(true)}>Jasna 3</Link2></li>
-                                    <li><Link2 to='jasna 4' smooth={true} duration={1000} delay={100} onClick={() => setToggleSubMenu(true)}>Jasna 4</Link2></li>
-                                    <li><Link2 to='nika 1' smooth={true} duration={1000} delay={100} onClick={() => setToggleSubMenu(true)}>Nika 1</Link2></li>
-                                    <li><Link2 to='nika 2' smooth={true} duration={1000} delay={100} onClick={() => setToggleSubMenu(true)}>Nika 2</Link2></li>
+                                    {pathname === '/Apartmaji-Jasna-Nika' ?
+                                        <>
+                                            <li><Link2 to='jasna 1' smooth={true} duration={1000} delay={100} onClick={() => setToggleSubMenu(true)}>Jasna 1</Link2></li>
+                                            <li><Link2 to='jasna 2' smooth={true} duration={1000} delay={100} onClick={() => setToggleSubMenu(true)}>Jasna 2</Link2></li>
+                                            <li><Link2 to='jasna 3' smooth={true} duration={1000} delay={100} onClick={() => setToggleSubMenu(true)}>Jasna 3</Link2></li>
+                                            <li><Link2 to='jasna 4' smooth={true} duration={1000} delay={100} onClick={() => setToggleSubMenu(true)}>Jasna 4</Link2></li>
+                                            <li><Link2 to='nika 1' smooth={true} duration={1000} delay={100} onClick={() => setToggleSubMenu(true)}>Nika 1</Link2></li>
+                                            <li><Link2 to='nika 2' smooth={true} duration={1000} delay={100} onClick={() => setToggleSubMenu(true)}>Nika 2</Link2></li>
+                                        </>
+                                        : <>
+                                            <li><Link to='/Apartmaji-Jasna-Nika/jasna_1' onClick={() => setToggleSubMenu(true)}>Jasna 1</Link></li>
+                                            <li><Link to='/Apartmaji-Jasna-Nika/jasna_2' onClick={() => setToggleSubMenu(true)}>Jasna 2</Link></li>
+                                            <li><Link to='/Apartmaji-Jasna-Nika/jasna_3' onClick={() => setToggleSubMenu(true)}>Jasna 3</Link></li>
+                                            <li><Link to='/Apartmaji-Jasna-Nika/jasna_4' onClick={() => setToggleSubMenu(true)}>Jasna 4</Link></li>
+                                            <li><Link to='/Apartmaji-Jasna-Nika/nika_1' onClick={() => setToggleSubMenu(true)}>Nika 1</Link></li>
+                                            <li><Link to='/Apartmaji-Jasna-Nika/nika_2' onClick={() => setToggleSubMenu(true)}>Nika 2</Link></li>
+                                        </>
+                                    }
                                 </ul>
                             )}
                         </li>
@@ -77,12 +91,24 @@ const Navbar = () => {
 
                                 {!toggleSubMenu && (
                                     <ul className='submenu'>
-                                        <li><Link2 to='jasna 1' smooth={true} duration={1000} delay={100} onClick={() => { setToggleSubMenu(true); setToggleMenu(false); }}>Jasna 1</Link2></li>
-                                        <li><Link2 to='jasna 2' smooth={true} duration={1000} delay={100} onClick={() => { setToggleSubMenu(true); setToggleMenu(false); }}>Jasna 2</Link2></li>
-                                        <li><Link2 to='jasna 3' smooth={true} duration={1000} delay={100} onClick={() => { setToggleSubMenu(true); setToggleMenu(false); }}>Jasna 3</Link2></li>
-                                        <li><Link2 to='jasna 4' smooth={true} duration={1000} delay={100} onClick={() => { setToggleSubMenu(true); setToggleMenu(false); }}>Jasna 4</Link2></li>
-                                        <li><Link2 to='nika 1' smooth={true} duration={1000} delay={100} onClick={() => { setToggleSubMenu(true); setToggleMenu(false); }}>Nika 2</Link2></li>
-                                        <li><Link2 to='nika 2' smooth={true} duration={1000} delay={100} onClick={() => { setToggleSubMenu(true); setToggleMenu(false); }}>Nika 3</Link2></li>
+                                        {pathname === '/Apartmaji-Jasna-Nika' ?
+                                            <>
+                                                <li><Link2 to='jasna 1' smooth={true} duration={1000} delay={100} onClick={() => { setToggleSubMenu(true); setToggleMenu(false); }}>Jasna 1</Link2></li>
+                                                <li><Link2 to='jasna 2' smooth={true} duration={1000} delay={100} onClick={() => { setToggleSubMenu(true); setToggleMenu(false); }}>Jasna 2</Link2></li>
+                                                <li><Link2 to='jasna 3' smooth={true} duration={1000} delay={100} onClick={() => { setToggleSubMenu(true); setToggleMenu(false); }}>Jasna 3</Link2></li>
+                                                <li><Link2 to='jasna 4' smooth={true} duration={1000} delay={100} onClick={() => { setToggleSubMenu(true); setToggleMenu(false); }}>Jasna 4</Link2></li>
+                                                <li><Link2 to='nika 1' smooth={true} duration={1000} delay={100} onClick={() => { setToggleSubMenu(true); setToggleMenu(false); }}>Nika 1</Link2></li>
+                                                <li><Link2 to='nika 2' smooth={true} duration={1000} delay={100} onClick={() => { setToggleSubMenu(true); setToggleMenu(false); }}>Nika 2</Link2></li>
+                                            </>
+                                            : <>
+                                                <li><Link to='/Apartmaji-Jasna-Nika/jasna_1' onClick={() => { setToggleSubMenu(true); setToggleMenu(false); }}>Jasna 1</Link></li>
+                                                <li><Link to='/Apartmaji-Jasna-Nika/jasna_2' onClick={() => { setToggleSubMenu(true); setToggleMenu(false); }}>Jasna 2</Link></li>
+                                                <li><Link to='/Apartmaji-Jasna-Nika/jasna_3' onClick={() => { setToggleSubMenu(true); setToggleMenu(false); }}>Jasna 3</Link></li>
+                                                <li><Link to='/Apartmaji-Jasna-Nika/jasna_4' onClick={() => { setToggleSubMenu(true); setToggleMenu(false); }}>Jasna 4</Link></li>
+                                                <li><Link to='/Apartmaji-Jasna-Nika/nika_1' onClick={() => { setToggleSubMenu(true); setToggleMenu(false); }}>Nika 1</Link></li>
+                                                <li><Link to='/Apartmaji-Jasna-Nika/nika_2' onClick={() => { setToggleSubMenu(true); setToggleMenu(false); }}>Nika 2</Link></li>
+                                            </>
+                                        }
                                     </ul>
                                 )}
                             </li>
