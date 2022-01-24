@@ -52,6 +52,7 @@
     "misc": {
         "from": "iz",
         "preberi_vec": "Preberi več",
-        "poslji": "Pošlji"
+        "poslji": "Pošlji",
+        "mail": "primer@gmail.com"
     }
 }

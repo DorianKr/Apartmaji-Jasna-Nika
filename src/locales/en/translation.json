@@ -9,6 +9,7 @@
     "info": {
         "naslov": "Address",
         "kontakti": "Contacts",
+        "vprasanja": "Common questions",
         "kontaktirajte_nas": "Contact us!",
         "kontaktirajte_nas-vpr": "If you have any questions you can write to us here:",
         "msg": "Message:",
@@ -18,13 +19,31 @@
         "licenca_ikonice": "License for icons",
         "ikonice_msg": "Icons made by"
     },
-    "apartmaji_text": {
-        "jasna1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non in id voluptatem reprehenderit sed magni consequuntur excepturi deleniti animi, molestias sint obcaecati explicabo dolorem sit praesentium laudantium blanditiis vel harum.",
-        "jasna2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non in id voluptatem reprehenderit sed magni consequuntur excepturi deleniti animi, molestias sint obcaecati explicabo dolorem sit praesentium laudantium blanditiis vel harum.",
-        "jasna3": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non in id voluptatem reprehenderit sed magni consequuntur excepturi deleniti animi, molestias sint obcaecati explicabo dolorem sit praesentium laudantium blanditiis vel harum.",
-        "jasna4": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non in id voluptatem reprehenderit sed magni consequuntur excepturi deleniti animi, molestias sint obcaecati explicabo dolorem sit praesentium laudantium blanditiis vel harum.",
-        "nika1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non in id voluptatem reprehenderit sed magni consequuntur excepturi deleniti animi, molestias sint obcaecati explicabo dolorem sit praesentium laudantium blanditiis vel harum.",
-        "nika2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non in id voluptatem reprehenderit sed magni consequuntur excepturi deleniti animi, molestias sint obcaecati explicabo dolorem sit praesentium laudantium blanditiis vel harum."
+    "apartmaji": {
+        "j1": {
+            "ime": "Jasna 1",
+            "opis": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non in id voluptatem reprehenderit sed magni consequuntur excepturi deleniti animi, molestias sint obcaecati explicabo dolorem sit praesentium laudantium blanditiis vel harum."
+        },
+        "j2": {
+            "ime": "Jasna 2",
+            "opis": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non in id voluptatem reprehenderit sed magni consequuntur excepturi deleniti animi, molestias sint obcaecati explicabo dolorem sit praesentium laudantium blanditiis vel harum."
+        },
+        "j3": {
+            "ime": "Jasna 3",
+            "opis": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non in id voluptatem reprehenderit sed magni consequuntur excepturi deleniti animi, molestias sint obcaecati explicabo dolorem sit praesentium laudantium blanditiis vel harum."
+        },
+        "j4": {
+            "ime": "Jasna 4",
+            "opis": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non in id voluptatem reprehenderit sed magni consequuntur excepturi deleniti animi, molestias sint obcaecati explicabo dolorem sit praesentium laudantium blanditiis vel harum."
+        },
+        "n1": {
+            "ime": "Nika 1",
+            "opis": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non in id voluptatem reprehenderit sed magni consequuntur excepturi deleniti animi, molestias sint obcaecati explicabo dolorem sit praesentium laudantium blanditiis vel harum."
+        },
+        "n2": {
+            "ime": "Nika 2",
+            "opis": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non in id voluptatem reprehenderit sed magni consequuntur excepturi deleniti animi, molestias sint obcaecati explicabo dolorem sit praesentium laudantium blanditiis vel harum."
+        }
     },
     "alt": {
         "slika_apartmaja": "Apartment ",
@@ -33,6 +52,7 @@
     "misc": {
         "from": "from",
         "preberi_vec": "Read more",
-        "poslji": "Send"
+        "poslji": "Send",
+        "mail": "example@gmail.com"
     }
 }
