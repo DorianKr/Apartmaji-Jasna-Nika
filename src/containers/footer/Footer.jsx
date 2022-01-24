@@ -16,7 +16,7 @@ const Footer = () => {
                 <h4>{t('info.kontaktirajte_nas-vpr')}</h4>
                 <label htmlFor="mail">Mail:</label>
                 <input id='mail' type="mail" placeholder={t('misc.mail')} />
-                <label htmlFor="text">{t('info.msg')}</label>
+                <label htmlFor="text">{t('misc.msg')}</label>
                 <textarea id='text' type="text" maxLength={500} />
                 <button type="submit">{t('misc.poslji')}</button>
             </div>
@@ -28,4 +28,5 @@ const Footer = () => {
         </div>
     )
 }
+
 export default Footer
