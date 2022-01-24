@@ -46,7 +46,7 @@ const Apartmaji = () => {
         {
             title: 'Nika 2',
             image: '',
-            text: t('apartmaji_text.n2.opis'),
+            text: t('apartmaji.n2.opis'),
             st_postelj: '3',
             velikost: '70'
         },
