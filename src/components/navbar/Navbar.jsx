@@ -28,7 +28,7 @@ const Navbar = () => {
             <div className='__navbar-links'>
                 <div className='__navbar-links_container'>
                     <ul>
-                        <li ><Link to="/Apartmaji-Jasna-Nika" >{t('nav.domov')}</Link></li>
+                        <li ><Link to="/Apartmaji-Jasna-Nika" onClick={() => setToggleSubMenu(true)}>{t('nav.domov')}</Link></li>
                         <li className='dropdown'>
                             {toggleSubMenu
                                 ? <Link to="#" onClick={() => setToggleSubMenu(false)}>{t('naslov_m')}<RiArrowDropDownLine color='#000' className='react-icons' size={21} /></Link>
@@ -58,10 +58,10 @@ const Navbar = () => {
                                 </ul>
                             )}
                         </li>
-                        <li><Link to="zasedenost">{t('nav.zasedenost')}</Link></li>
-                        <li><Link to="/Apartmaji-Jasna-Nika/info">{t('nav.info')}</Link></li>
+                        <li><Link to="zasedenost" onClick={() => setToggleSubMenu(true)}>{t('nav.zasedenost')}</Link></li>
+                        <li><Link to="/Apartmaji-Jasna-Nika/info" onClick={() => setToggleSubMenu(true)}>{t('nav.info')}</Link></li>
                         <li>
-                            <select name="language" onChange={onChange}>
+                            <select name="language" onChange={onChange} onClick={() => setToggleSubMenu(true)}>
                                 <option value="sl">SLO</option>
                                 <option value="en">ENG</option>
                             </select>
