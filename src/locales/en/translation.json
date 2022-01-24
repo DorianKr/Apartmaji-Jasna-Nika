@@ -9,11 +9,19 @@
     "info": {
         "naslov": "Address",
         "kontakti": "Contacts",
-        "vprasanja": "Common questions",
         "kontaktirajte_nas": "Contact us!",
         "kontaktirajte_nas-vpr": "If you have any questions you can write to us here:",
-        "msg": "Message:",
-        "hr": "Croatia"
+        "vprasanja": {
+            "naslov": "Common questions",
+            "v1": "Is the beach close?",
+            "o1": "YES! The beach is close, only about 60m (2 min. on foot).",
+            "v2": "Is there any space to socialize outside?",
+            "o2": "Yes. Each house has an outdoor space with barbecue and table.",
+            "v3": "Do all apartments have air conditioning?",
+            "o3": "Yes. Each apartment has its own air conditioning and remote control.",
+            "v4": "Is there a surcharge for air conditioning?",
+            "o4": "No! Air conditioning is not charged separately."
+        }
     },
     "footer": {
         "licenca_ikonice": "License for icons",
@@ -53,6 +61,8 @@
         "from": "from",
         "preberi_vec": "Read more",
         "poslji": "Send",
-        "mail": "example@gmail.com"
+        "mail": "example@gmail.com",
+        "msg": "Message:",
+        "hr": "Croatia"
     }
 }

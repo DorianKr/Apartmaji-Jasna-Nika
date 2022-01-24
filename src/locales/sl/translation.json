@@ -9,11 +9,19 @@
     "info": {
         "naslov": "Naslov",
         "kontakti": "Kontakti",
-        "vprasanja": "Pogosta vprašanja",
         "kontaktirajte_nas": "Kontaktirajte nas!",
         "kontaktirajte_nas-vpr": "Če imate kakršna koli vprašanja nam lahko pišete tukaj:",
-        "msg": "Sporočilo:",
-        "hr": "Hrvaška"
+        "vprasanja": {
+            "naslov": "Pogosta vprašanja",
+            "v1": "Ali je plaža blizu?",
+            "o1": "JA! Plaža je blizu, samo kakšnih 60m (2 min. peš).",
+            "v2": "Ali je kakšen prostor za druženje zunaj?",
+            "o2": "Ja. Vsaka hiša ima zunaj urejen kotiček z žarom in mizo.",
+            "v3": "Ali imajo vsi apartmaji klimo?",
+            "o3": "Ja. Vsak apartma ima svojo klimatsko napravo in daljinski upravljalnik.",
+            "v4": "Ali je za klimo potrebno doplačilo?",
+            "o4": "Ne! Klima ni posebno zaračunana."
+        }
     },
     "footer": {
         "licenca_ikonice": "Licenca za ikonice",
@@ -53,6 +61,8 @@
         "from": "iz",
         "preberi_vec": "Preberi več",
         "poslji": "Pošlji",
-        "mail": "primer@gmail.com"
+        "mail": "primer@gmail.com",
+        "msg": "Sporočilo:",
+        "hr": "Hrvaška"
     }
 }
