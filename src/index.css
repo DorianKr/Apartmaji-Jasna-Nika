@@ -27,6 +27,16 @@ body,
     flex-direction: row;
 }
 
+.flex_column {
+    display       : flex;
+    flex-direction: column;
+}
+
+.flex_center {
+    display        : flex;
+    justify-content: center;
+}
+
 /*
     color gradient: https: //angrytools.com/gradient/
     animatons: animista.net/play/basic
